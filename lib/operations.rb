@@ -1,10 +1,10 @@
 require 'pry'
 
 def unsafe?(speed)
-if speed > 60
-  true
-else
-  false
+  if speed > 60
+    TRUE
+  else
+    false
 end
 
 
